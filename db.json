@@ -1,0 +1,84 @@
+{
+  "getAllCities": [
+    { "value": "beijing", "label": "北京", "adcode": "110000" },
+    { "value": "shanghai", "label": "上海", "adcode": "310000" },
+    { "value": "guangzhou", "label": "广州", "adcode": "440100" },
+    { "value": "shenzhen", "label": "深圳", "adcode": "440300" },
+    { "value": "hangzhou", "label": "杭州", "adcode": "330100" }
+  ],
+  "getAllDistrictOfCity": [
+    { "value": "chaoyang", "label": "朝阳区"},
+    { "value": "haidian", "label": "海淀区"},
+    { "value": "dongcheng", "label": "东城区"},
+    { "value": "xicheng", "label": "西城区"},
+    { "value": "fengtai", "label": "丰台区"},
+    { "value": "shijingshan", "label": "石景山区"},
+    { "value": "tongzhou", "label": "通州区"},
+    { "value": "changping", "label": "昌平区"},
+    { "value": "daxing", "label": "大兴区"},
+    { "value": "shunyi", "label": "顺义区"},
+    { "value": "fangshan", "label": "房山区"},
+    { "value": "mentougou", "label": "门头沟区"},
+    { "value": "pinggu", "label": "平谷区"},
+    { "value": "huairou", "label": "怀柔区"},
+    { "value": "miyun", "label": "密云区"},
+    { "value": "yanqing", "label": "延庆区"}
+  ],
+  "getPriceTrend": {
+      "dates": ["2023-01", "2023-02", "2023-03", "2023-04", "2023-05", "2023-06"],
+      "prices": [85000, 86000, 87000, 88000, 89000, 90000]
+    },
+  "getPriceDistribution": {
+    "districts": [
+      { "name": "朝阳区", "value": 85000 },
+      { "name": "海淀区", "value": 82000 },
+      { "name": "东城区", "value": 88000 },
+      { "name": "西城区", "value": 86000 },
+      { "name": "丰台区", "value": 75000 },
+      { "name": "石景山区", "value": 72000 },
+      { "name": "通州区", "value": 65000 },
+      { "name": "昌平区", "value": 62000 },
+      { "name": "大兴区", "value": 60000 },
+      { "name": "顺义区", "value": 58000 },
+      { "name": "房山区", "value": 55000 },
+      { "name": "门头沟区", "value": 52000 },
+      { "name": "平谷区", "value": 48000 },
+      { "name": "怀柔区", "value": 45000 },
+      { "name": "密云区", "value": 42000 },
+      { "name": "延庆区", "value": 40000 }
+    ]
+  },
+  "evaluate": {
+    "totalPriceRange": "580-620万",
+    "unitPriceRange": "65,000-70,000元/㎡",
+    "similarHouses": [
+      {
+        "address": "朝阳区中关村南大街5号",
+        "area": 90,
+        "layout": "3室2厅",
+        "floor": "12/18层",
+        "price": 595,
+        "unitPrice": 66111,
+        "similarity": 95
+      },
+      {
+        "address": "朝阳区建国路88号",
+        "area": 85,
+        "layout": "3室2厅",
+        "floor": "15/20层",
+        "price": 580,
+        "unitPrice": 68235,
+        "similarity": 92
+      },
+      {
+        "address": "朝阳区朝阳公园路1号",
+        "area": 95,
+        "layout": "3室2厅",
+        "floor": "10/16层",
+        "price": 610,
+        "unitPrice": 64210,
+        "similarity": 90
+      }
+    ]
+  }
+} 

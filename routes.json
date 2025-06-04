@@ -1,0 +1,6 @@
+{
+  "/getAllDistrictOfCity": "/getAllDistrictOfCity/:city",
+  "/getPriceTrend": "/getPriceTrend/:city/:district",
+  "/getPriceDistribution": "/getPriceDistribution/:city",
+  "/evaluate": "/evaluate"
+} 
